@@ -15,23 +15,7 @@ Pastikan Node.js sudah terinstall.
 npm install
 ```
 
-### 3. Buat File `.env`
-
-Salin file `.env.example` menjadi `.env`:
-
-```bash
-cp .env.example .env
-```
-
-Lalu edit `.env` dan isi sesuai konfigurasi berikut:
-
-```
-VITE_API_BASE=http://202.157.176.100:3001
-```
-
-> ⚠️ **Catatan:** Hapus file `.env.example` setelah membuat dan mengisi `.env`!
-
-### 4. Jalankan Aplikasi
+### 3. Jalankan Aplikasi
 
 ```bash
 npm run dev
